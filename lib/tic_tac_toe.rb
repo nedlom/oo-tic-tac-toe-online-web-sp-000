@@ -54,7 +54,7 @@ class TicTacToe
       move(index, current_player)
       display_board
     else
-      input = gets.strip
+      turn
     end
   end
   
